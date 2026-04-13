@@ -1,0 +1,10 @@
+{
+  "name": "market-feasibility",
+  "description": "Takes a software product idea and produces a comprehensive feasibility study covering technical, economic, legal, operational, scheduling, and market viability — plus full pricing and go-to-market strategy",
+  "version": "1.0.0",
+  "author": {
+    "name": "Frank Robinson"
+  },
+  "license": "MIT",
+  "keywords": ["feasibility", "viability", "market-research", "pricing", "valuation", "business-plan", "risk-analysis", "go-to-market"]
+}
