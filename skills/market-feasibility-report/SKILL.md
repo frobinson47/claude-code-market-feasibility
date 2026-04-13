@@ -717,6 +717,91 @@ Include early adopter pricing, introductory offers, and price escalation plan.
 
 ---
 
+## Phase 7K — Open Source & Community Strategy
+
+If the founder's goals include building developer credibility, GitHub traction, or
+community-driven growth (not just revenue), include this section. Skip if the product
+is purely commercial/closed-source.
+
+### 7K-1. Open Source Positioning
+
+Assess whether open-sourcing makes strategic sense:
+
+| Factor | Assessment |
+|---|---|
+| Is the product value in code or in data/network? | Code = OSS friendly; Data/Network = keep proprietary |
+| Does the product benefit from community contributions? | More adapters/integrations = YES |
+| Is there a hosted-service monetization path? | Free code + paid hosting = viable OSS business |
+| Does the founder want GitHub credibility? | If yes, OSS is the fastest path |
+
+**Key insight**: The most-starred repos ship frameworks and toolkits, not finished apps.
+If the product can be restructured as a pluggable toolkit with a reference implementation,
+it will attract more contributors and stars than a monolithic app.
+
+### 7K-2. Architecture for Contribution
+
+Propose a repo structure that makes contributing easy:
+
+- **Pluggable adapters** — let contributors add support for new services without touching core code
+- **Clear interfaces** — TypeScript interfaces or similar contracts that define adapter requirements
+- **Good first issue surface area** — identify 10+ issues that a new contributor could tackle
+- **Standalone packages** — extract reusable logic into npm/pip/crate packages for wider adoption
+
+### 7K-3. GitHub Traction Playbook
+
+Outline a concrete launch and growth plan:
+
+**Pre-launch (before v1.0):**
+- Best-in-class README (architecture diagram, screenshots, Why this exists, quick start)
+- CONTRIBUTING.md with good first issues guidance
+- LICENSE (MIT or Apache 2.0 — lowest barrier)
+- Issue templates for common contribution types
+- CI pipeline (lint, type-check, build, test)
+
+**Launch (week 1):**
+- Show HN post
+- Reddit posts to relevant communities (r/opensource, r/webdev, domain-specific subs)
+- Product Hunt submission (positioned as a developer tool)
+- Build-in-public social media thread
+
+**Growth (month 1-3):**
+- Maintain 5-10 good first issue labels at all times
+- Respond to all issues and PRs within 48 hours
+- Monthly changelog / state-of-the-project updates
+- Community channel (Discord, GitHub Discussions)
+
+**Ecosystem (month 3-6):**
+- Publish standalone packages extracted from the project
+- Hacktoberfest participation (if timing aligns)
+- Built with [project] showcase
+- Conference talks or blog posts about the architecture
+
+### 7K-4. Browser Extension / CLI Strategy (if applicable)
+
+If the product is web-based, assess whether a browser extension or CLI would increase
+organic discovery and GitHub traction:
+
+- Browser extensions have built-in distribution via Chrome Web Store
+- CLI tools are highly shareable in developer communities
+- Both can use the same core library, proving the pluggable architecture works
+
+### 7K-5. Community Health Metrics
+
+| Metric | Target (Month 3) | Target (Month 6) |
+|---|---|---|
+| GitHub stars | 100-300 | 500-1,000 |
+| Contributors | 5-10 | 15-25 |
+| Forks | 20-50 | 50-150 |
+| PR merge time | <48 hours | <48 hours |
+| Open good first issue count | 5-10 (always) | 5-10 (always) |
+
+### 7K-6. What to Avoid
+
+- Do not gate OSS features behind a paid tier in the repo
+- Do not ignore issues/PRs — a responsive small project beats a neglected popular one
+- Do not over-engineer before launch — ship 1-2 adapters, let the community build the rest
+- Do not put AI in the repo name for hype — lead with the problem, not the tech
+
 ## Phase 8 â€” Risk Synthesis & Go/No-Go Assessment
 
 This phase consolidates all risks from previous phases and delivers the final verdict.
@@ -909,6 +994,20 @@ risks (brand name RED, legal blockers, etc.), flag them here prominently.]
 [From 7J]
 ### Bundling Opportunities
 [From 7F]
+
+---
+
+## Open Source & Community Strategy (if applicable)
+### Open Source Positioning
+[From 7K-1]
+### Architecture for Contribution
+[From 7K-2]
+### GitHub Traction Playbook
+[From 7K-3]
+### Browser Extension / CLI Strategy
+[From 7K-4]
+### Community Health Metrics
+[From 7K-5]
 
 ---
 
