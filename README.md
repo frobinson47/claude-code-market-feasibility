@@ -5,7 +5,18 @@ A Claude Code plugin that takes a software product idea and produces a comprehen
 ## Install
 
 ```bash
-claude plugin add https://forgejo.familytechlab.com/frank/claude-code-market-feasibility
+/plugin
+
+Add the Marketplace:
+frobinson47/claude-code-market-feasibility
+
+#then install
+
+  ❯ ● frobinson47
+      frobinson47/claude-code-market-feasibility
+      1 available • 1 installed • Updated 4/11/2026
+
+
 ```
 
 ## What It Does
